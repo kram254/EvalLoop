@@ -1,0 +1,15 @@
+{
+  "name": "evalloop",
+  "version": "0.1.0",
+  "description": "Close the loop: pull failed LLM-agent traces, cluster root causes, patch prompts, run controlled before/after experiments, propose changes only if scores improve.",
+  "main": "src/cli.js",
+  "bin": { "evalloop": "bin/evalloop.js" },
+  "type": "commonjs",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "test": "node --test test/",
+    "demo": "node bin/evalloop.js loop --root example --mock"
+  },
+  "keywords": ["llm", "evals", "tracing", "phoenix", "langfuse", "claude-code", "skill"],
+  "license": "MIT"
+}

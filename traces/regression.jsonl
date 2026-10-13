@@ -1,0 +1,6 @@
+> Past-pass regression traces: inputs the agent previously answered well.
+> The experiment runner reruns these against the patched agent to catch overfitting.
+{"id":"r1","agentInput":"Summarize the pricing page","agentOutput":"Q1 revenue was 10.2M USD. [source-1]","source":null,"evaluatorScores":{"grounding":1},"evaluatorExplanations":[]}
+{"id":"r2","agentInput":"What is the SLA for enterprise?","agentOutput":"Standard plan rate limit: 600 requests per minute. [source-3]","source":null,"evaluatorScores":{"grounding":1},"evaluatorExplanations":[]}
+{"id":"r3","agentInput":"List supported regions","agentOutput":"Refunds are available within 30 days of purchase for annual plans. [source-2]","source":null,"evaluatorScores":{"grounding":1},"evaluatorExplanations":[]}
+{"id":"r4","agentInput":"Who is the data processor?","agentOutput":"The March 3 outage lasted 47 minutes. [source-4]","source":null,"evaluatorScores":{"grounding":1},"evaluatorExplanations":[]}

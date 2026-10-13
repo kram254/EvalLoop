@@ -1,0 +1,4 @@
+node_modules/
+.evalloop/
+*.log
+.DS_Store
